@@ -1,0 +1,51 @@
+h1{
+    color: green;
+    text-align: center;
+    background-color: rgb(236, 225, 225);
+    padding: 15px 20px 15px 20px;
+}
+
+.Box1{
+    background-color: gray;
+    color: rgb(242, 211, 89);
+    width: 25%;
+    float: left;
+    text-align: center;
+
+}
+
+.Box2{
+    background-color: rgb(138, 138, 138);
+    color: rgb(242, 211, 89);
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+
+.Box3{
+    background-color: rgb(156, 156, 156);
+    color: rgb(242, 211, 89);
+    width: 25%;
+    float: right;
+    text-align: center;
+}
+
+.Box4{
+    background-color: rgb(172, 172, 172);
+    color: rgb(242, 211, 89);
+    width: 25%;
+    float: right;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .Box1,.Box2,.Box3,.Box4{
+        width:50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Box1,.Box2,.Box3,.Box4{
+        width:100%;
+    }
+}
